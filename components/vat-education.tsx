@@ -17,7 +17,7 @@ export default function VATEducation() {
           <Card>
             <CardContent className="p-6 space-y-4">
               <div className="space-y-2">
-                <p className="text-4xl font-bold text-primary">20%</p>
+                <p className="text-4xl font-bold text-primary">17.5%</p>
                 <h3 className="text-lg font-semibold">Standard Rate</h3>
               </div>
               <p className="text-sm text-muted-foreground">

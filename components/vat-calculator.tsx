@@ -23,7 +23,7 @@ interface VATLine {
 }
 
 const DEFAULT_RATES: VATRate[] = [
-  { id: 'standard', name: 'Standard Rate', percentage: 20, isCustom: false },
+  { id: 'standard', name: 'Standard Rate', percentage: 17.5, isCustom: false },
   { id: 'reduced', name: 'Reduced Rate', percentage: 5, isCustom: false },
   { id: 'zero', name: 'Zero Rate', percentage: 0, isCustom: false },
 ];
