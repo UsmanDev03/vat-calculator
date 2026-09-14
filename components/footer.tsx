@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-card border-t border-border mt-auto">
       <div className="max-w-7xl mx-auto px-4 py-12 space-y-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           <div className="space-y-3">
             <h3 className="font-bold text-sm text-foreground uppercase tracking-wider">About</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
@@ -43,25 +43,9 @@ export default function Footer() {
               </a>
             </p>
           </div>
-
-          <div className="space-y-3">
-            <h3 className="font-bold text-sm text-foreground uppercase tracking-wider">Legal</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#privacy" className="text-muted-foreground hover:text-foreground transition">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#terms" className="text-muted-foreground hover:text-foreground transition">
-                  Terms of Service
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
-        {/* Explicit 100% Verified Content Block Layout containing Freshness Date */}
+        {/* Verified Content Block */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-sm text-muted-foreground">
             © {currentYear} VAT Calculator. All rights reserved. Prepared by Teqnoor.
